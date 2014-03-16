@@ -1,0 +1,54 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	background: ivory;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	height: 100%;
+	position: relative;
+}
+header,
+footer {
+	background: thistle;
+}
+header h1 {
+	padding: 20px;
+}
+section {
+	background: whitesmoke;
+	height: 100%;
+}
+article {
+	padding: 40px 0;
+}
+footer h4 {
+	padding: 10px 0;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 99.5%;
+}
+
+/* Media Queries
+==================== */
+@media (min-width: 1000px) {
+	#wrapper {
+		max-width: 800px;
+	}
+}
+@media (max-width: 769px) {
+	#wrapper {
+		width: 100%;
+	}
+}

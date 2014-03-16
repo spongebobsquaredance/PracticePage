@@ -1,0 +1,1 @@
+I created this project to learn how to host a static web page with Git Pages.
