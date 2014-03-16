@@ -4,7 +4,7 @@ body {
 	margin: 0;
 }
 body {
-	background: black;
+	background: slategray;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 h1, h2, h3, h4, p {
@@ -39,7 +39,7 @@ footer h4 {
 footer {
 	position: absolute;
 	bottom: 0;
-	width: 99.5%;
+	width: 100%;
 }
 
 /* Media Queries
